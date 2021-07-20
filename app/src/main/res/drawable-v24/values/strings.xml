@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">AppDelivery</string>
+    <string name="action_menu_cliente">Opciones</string>
+    <string name="action_menu_bebida">Opciones</string>
+    <string name="action_menu_comida">Opciones</string>
+    <string name="title_activity_login">Autentificación</string>
+    <string name="guardar">Guardar</string>
+    <string name="excluir">Excluir</string>
+    <string name="salir">Salir</string>
+    <string name="login">Login</string>
+    <string name="cliente">Cliente</string>
+    <string name="bebida">Bebida</string>
+    <string name="comida">Comida</string>
+    <string name="nuevo_user">New Usuario</string>
+
+    <!-- login -->
+    <string name="Login_txtUsuario">Usuario:</string>
+    <string name="Login_txtClave">Clave:</string>
+    <string name="Login_btnEntrar">Ingresar</string>
+
+    <!-- validacion -->
+    <string name="Login_validaUsuario">Usuario Obligatorio</string>
+    <string name="Login_validaClave">Clave Obligatorio</string>
+    <string name="Login_validaNombre">Nombre Obligatorio</string>
+    <string name="Login_validaTelefono">Telefono Obligatorio</string>
+
+    <!-- Mensajes -->
+    <string name="msg_login_incorrecto">Usuario o Clave invalida</string>
+    <string name="title_activity_usuario">Registro de Usuarios</string>
+    <string name="msg_user_guardado">Registro Guardado..!</string>
+    <string name="msg_user_modificado">Registro Modificado..!</string>
+    <string name="msg_user_eliminado">Registro Eliminado..!</string>
+    <string name="msg_user_error">Error al guardar!</string>
+
+    <!-- cliente -->
+    <string name="Cliente_txtNombre">Nombre:</string>
+    <string name="Cliente_txtUser">Usuario:</string>
+    <string name="Cliente_txtClave">Clave:</string>
+    <string name="Cliente_txtTelefono">Telefono:</string>
+    <string name="Cliente_txtEmail">Email:</string>
+    <string name="Login_btnRegistrar">Registrar</string>
+    <string name="title_activity_list_cliente">Lista de Usuarios</string>
+    <string name="action_settings">Settings</string>
+    <string name="Lista_usuarios">Lista de Usuarios</string>
+    <string name="agregar_carrito">Agregar al carrito</string>
+
+
+    <!-- Lista de bebidas -->
+    <string-array name="Bebidas">
+        <item>incakola</item>
+        <item>cocacola</item>
+    </string-array>
+
+    <string-array name="Descripcion">
+        <item>gaseosa peruana</item>
+        <item>gaseosa internacional</item>
+    </string-array>
+    <!-- Lista de comida -->
+    <string-array name="Comidas">
+        <item>hamburguesa</item>
+        <item>broaster</item>
+        <item>pizza</item>
+    </string-array>
+
+    <string-array name="Ingredientes">
+        <item>carne</item>
+        <item>pollito frito</item>
+        <item>queso</item>
+    </string-array>
+</resources>

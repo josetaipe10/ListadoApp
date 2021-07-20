@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#858585"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:id="@+id/registrobebidas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/text_edit_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="REGISTRO MATERIALES"
+            android:textColor="#036747"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="NOMBRE MATERIAL"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtBEBIDA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caja"
+            android:drawableLeft="@drawable/ic_baseline_folder_24"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="DESCRIPCIÓN"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtDESCRIPCION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caja"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+            android:padding="5dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="PRECIO"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtPRECIO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caja"
+            android:drawableLeft="@drawable/ic_baseline_attach_dinero"
+            android:padding="5dp" />
+
+
+        <Button
+            android:id="@+id/btnregistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:text="REGISTRAR"
+            android:textColor="@android:color/background_dark" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>
